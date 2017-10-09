@@ -25,11 +25,11 @@ public class Contact implements Serializable {
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
 	private String mail;
-	private Long tel;
+	private String tel;
 	private String photo;
 	
 	
-	public Contact(String nom, String prenom, Date dateNaissance, String mail, Long tel, String photo) {
+	public Contact(String nom, String prenom, Date dateNaissance, String mail, String tel, String photo) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
